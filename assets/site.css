@@ -1,0 +1,42 @@
+p.software-sys {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #fff;
+    line-height: 19px;
+}
+
+p.software-size {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+    line-height: 19px;
+}
+
+p.software-size span {
+    margin-left: 18px;
+}
+
+.header .logo {
+    background: url("//qncdn.aoscdn.com/img/logo/wangxu.svg") left center/34px no-repeat;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 40px;
+    color: #fff;
+    top: 0;
+    width: 205px;
+}
+
+.transparent-black-header .logo {
+    color: #666;
+}
+
+@media (min-width: 769px) {
+    .header .nav {
+        width: calc(100% - 60px);
+        padding-left: 230px;
+    }
+}
+
+.counted-share-vertical {
+    display: none;
+}
